@@ -1,0 +1,25 @@
+.home-page {
+  align-items: center;
+  color: rgb(255, 255, 255);
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  padding: 0 25%;
+  background-color: rgb(0, 0, 0);
+}
+
+.hero {
+  border-radius: 15%;
+  max-height: 35%;
+  max-width: 35%;
+}
+
+.home-title {
+  font-size: 6em;
+  margin: 0 1em;
+}
+
+.about {
+  text-align: justify;
+  margin-left: 5em;
+}

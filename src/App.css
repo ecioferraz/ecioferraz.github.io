@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+header a {
+  font-size: 1.2em;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+}
+
+p a:hover {
+  text-decoration: underline;
 }
