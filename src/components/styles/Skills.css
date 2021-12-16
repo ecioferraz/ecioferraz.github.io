@@ -44,4 +44,9 @@
 li {
   list-style: none;
   margin: .5em .5em 0 .5em;
+  transition: all .2s ease-in-out;
+}
+
+.skill li:hover {
+  transform: scale(1.2);
 }
