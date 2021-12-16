@@ -3,6 +3,7 @@ import ProjectsCard from "./ProjectCards";
 import './styles/Projects.css';
 
 import pixelArt from '../images/pixel-art.png';
+import starWars from '../images/star-wars.png'
 
 export default function Projects () {
   return (
@@ -12,9 +13,14 @@ export default function Projects () {
         <ProjectsCard
           projectURL="https://ecioferraz.github.io/trybe-pixel-art-project/"
           src={ pixelArt }
-          alt="Print de tela do projeto"
           title="Pixel Art"
           githubURL="https://github.com/ecioferraz/trybe-pixel-art-project"
+        />
+        <ProjectsCard
+          projectURL="https://ecioferraz.github.io/trybe-star-wars-project/"
+          src={ starWars }
+          title="Star Wars: Planet Search"
+          githubURL="https://github.com/ecioferraz/trybe-star-wars-project"
         />
       </section>
     </section>
