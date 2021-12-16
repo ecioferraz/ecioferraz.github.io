@@ -1,0 +1,47 @@
+.skills {
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  padding: 0 25%;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+
+.skills-lists {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vh;
+}
+
+.hard-skills, .soft-skills {
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  padding: 2.5em 3em 3em 3em;
+  border-radius: 15%;
+  box-shadow: rgba(0, 0, 0, 0.8) 3px 3px;
+}
+
+/* https://getcssscan.com/css-box-shadow-examples */
+
+.skills h3 {
+  margin-top: 0;
+}
+
+.inner-skills {
+  display: flex;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  margin: .5em .5em 0 .5em;
+}
