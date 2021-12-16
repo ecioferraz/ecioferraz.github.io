@@ -47,6 +47,6 @@ li {
   transition: all .2s ease-in-out;
 }
 
-li:hover {
+.skill li:hover {
   transform: scale(1.2);
 }

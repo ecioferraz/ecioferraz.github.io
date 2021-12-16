@@ -10,16 +10,16 @@ export default function Skills () {
             <h3>Hard Skills</h3>
             <div className="inner-skills">
               <ul>
-                <li><i className="fab fa-git-alt"></i></li>
-                <li><i className="fab fa-js"></i></li>
-                <li><i className="fab fa-html5"></i></li>
-                <li><i className="fab fa-css3-alt"></i></li>
-                <li><i className="fab fa-react"></i></li>
-                <li><i className="fas fa-flask"></i></li>
-                <li><i className="fas fa-database"></i></li>
-                <li><i className="fab fa-docker"></i></li>
+                <li><i className="fab fa-git-alt" /></li>
+                <li><i className="fab fa-js" /></li>
+                <li><i className="fab fa-html5" /></li>
+                <li><i className="fab fa-css3-alt" /></li>
+                <li><i className="fab fa-react" /></li>
+                <li><i className="fas fa-flask" /></li>
+                <li><i className="fas fa-database" /></li>
+                <li><i className="fab fa-docker" /></li>
               </ul>
-              <ul>
+              <ul className="skill">
                 <li>Git & GitHub</li>
                 <li>JavaScript ES6</li>
                 <li>HTML</li>
@@ -35,14 +35,14 @@ export default function Skills () {
             <h3>Soft Skills</h3>
             <div className="inner-skills">
               <ul>
-                <li><i className="fas fa-hands-helping"></i></li>
-                <li><i className="fas fa-users"></i></li>
-                <li><i className="fas fa-sitemap"></i></li>
-                <li><i className="fas fa-code"></i></li>
-                <li><i className="fas fa-hand-holding-heart"></i></li>
-                <li><i className="fas fa-bullseye"></i></li>
+                <li><i className="fas fa-hands-helping" /></li>
+                <li><i className="fas fa-users" /></li>
+                <li><i className="fas fa-sitemap" /></li>
+                <li><i className="fas fa-code" /></li>
+                <li><i className="fas fa-hand-holding-heart" /></li>
+                <li><i className="fas fa-bullseye" /></li>
               </ul>
-              <ul>
+              <ul className="skill">
                 <li>Colaboração</li>
                 <li>Teamwork</li>
                 <li>Organização</li>

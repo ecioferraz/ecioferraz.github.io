@@ -1,25 +1,24 @@
 import React from "react";
-import pixelArt from '../images/pixel-art.png';
 import './styles/ProjectCards.css';
 
-export default function ProjectsCard () {
+export default function ProjectsCard ({ projectURL, src, alt, title, githubURL }) {
   return (
     <div className="project-card">
       <a
-        href="https://ecioferraz.github.io/trybe-pixel-art-project/"
+        href={ projectURL }
         target="_blank"
         rel="noreferrer"
       >
         <img
-          src={ pixelArt }
-          alt="Estática da home-page do projeto Pixels Art"
+          src={ src }
+          alt={ alt }
           className="project-card-image"
         />
       </a>
       <div className="project-card-body">
-        <h4 className="project-card-title">Pixel Art</h4>
+        <h4 className="project-card-title">{ title }</h4>
         <a
-          href="https://github.com/ecioferraz/trybe-pixel-art-project"
+          href={ githubURL }
           target="_blank"
           rel="noreferrer"
         >
