@@ -1,7 +1,7 @@
 import React from "react";
 import './styles/ProjectCards.css';
 
-export default function ProjectsCard ({ projectURL, src, alt, title, githubURL }) {
+export default function ProjectsCard ({ projectURL, src, title, githubURL }) {
   return (
     <div className="project-card">
       <a
@@ -11,7 +11,7 @@ export default function ProjectsCard ({ projectURL, src, alt, title, githubURL }
       >
         <img
           src={ src }
-          alt={ alt }
+          alt="Print de tela do projeto"
           className="project-card-image"
         />
       </a>
