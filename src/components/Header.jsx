@@ -6,7 +6,8 @@ export default function Header () {
   return (
     <header>
       <nav>
-        <ul>
+        <h4>.</h4>
+        <ul className="menu">
           <li>
             <HashLink smooth to="/#about">
               <button type="button">
@@ -28,12 +29,32 @@ export default function Header () {
               </button>
             </HashLink>
           </li>
-          <li>
+          {/* <li>
             <HashLink smooth to="/#contact">
               <button>
                 <a href="#contact">Contato</a>
               </button>
             </HashLink>
+          </li> */}
+        </ul>
+        <ul className="contacts">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ecioferraz/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/ecioferraz"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fab fa-github"></i>
+            </a>
           </li>
         </ul>
       </nav>

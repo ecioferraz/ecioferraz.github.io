@@ -7,7 +7,7 @@ import starWars from '../images/star-wars.png'
 
 export default function Projects () {
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <h1>Projetos</h1>
       <section className="project-cards">
         <ProjectsCard
