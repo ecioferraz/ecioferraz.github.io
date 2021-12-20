@@ -3,7 +3,8 @@ import ProjectsCard from "./ProjectCards";
 import './styles/Projects.css';
 
 import pixelArt from '../images/pixel-art.png';
-import starWars from '../images/star-wars.png'
+import starWars from '../images/star-wars.png';
+import trivia from '../images/trivia.png';
 
 export default function Projects () {
   return (
@@ -21,6 +22,12 @@ export default function Projects () {
           src={ starWars }
           title="Star Wars: Planet Search"
           githubURL="https://github.com/ecioferraz/trybe-star-wars-project"
+        />
+        <ProjectsCard
+          projectURL="https://ecioferraz.github.io/trybe-trivia-project/"
+          src={ trivia }
+          title="Trivia"
+          githubURL="https://github.com/ecioferraz/trybe-trivia-project"
         />
       </section>
     </section>

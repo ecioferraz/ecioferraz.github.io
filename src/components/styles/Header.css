@@ -68,10 +68,10 @@ button::before {
   bottom: 0;
   border-bottom-color: rgba(255,255,255,0.5);
   border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
   border-top-color: rgba(255,255,255,0.5);
   border-top-style: solid;
-  border-top-width: 1px;
+  border-top-width: 2px;
   content: '';
   height: 100%;
   left: 0;
