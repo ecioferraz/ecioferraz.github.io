@@ -52,9 +52,10 @@ a {
 
 header a {
   font-size: 1.2em;
+  font-weight: 500;
 }
 
-h4 {
+header h4 {
   margin: 0;
   visibility: hidden;
 }
