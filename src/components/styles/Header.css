@@ -6,7 +6,7 @@ header {
   justify-content: center;
   padding: 1em 0 1em 0;
   position: fixed;
-  width: 100vw;
+  width: 100%;
 };
 
 header ul {
@@ -107,6 +107,10 @@ a:hover i {
 }
 
 @media screen and (max-width: 1024px) {
+  header {
+    width: 100vw;
+  }
+
   .menu a {
     font-size: 1em;
   }
