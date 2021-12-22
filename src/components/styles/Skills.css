@@ -1,6 +1,7 @@
 .skills {
   align-items: center;
   background-color: rgb(255, 255, 255);
+  border: 1px solid black;
   color: rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
@@ -19,7 +20,7 @@
   align-items: center;
   display: flex;
   justify-content: space-evenly;
-  width: 100vh;
+  width: 100%;
 }
 
 .hard-skills, .soft-skills {
@@ -49,4 +50,36 @@ li {
 
 .skill li:hover {
   transform: scale(1.2);
+}
+
+@media screen and (max-width: 1024px) {
+  .skills {
+    padding: 0;
+  }
+  
+  .skills-lists {
+    flex-direction: column;
+  }
+
+  .hard-skills, .soft-skills {
+    width: 30%;
+    font-size: .8em;
+    padding: 10px;
+  }
+
+  .soft-skills {
+    margin-top: 20px;
+  }
+
+  .skills h3 {
+    font-size: .8em;
+  }
+
+  .skills-title {
+    font-size: 1.4em;
+  }
+
+  li {
+    font-size: .8em;
+  }
 }
