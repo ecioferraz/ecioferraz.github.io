@@ -6,6 +6,7 @@ import pixelArt from '../images/pixel-art.png';
 import starWars from '../images/star-wars.png';
 import trivia from '../images/trivia.png';
 import trybeWallet from '../images/trybewallet.png';
+import trybeTunes from '../images/trybetunes.png';
 
 export default function Projects () {
   return (
@@ -35,6 +36,12 @@ export default function Projects () {
           src={ trybeWallet }
           title="TrybeWallet"
           githubURL="https://github.com/ecioferraz/trybe-trybewallet-project"
+        />
+        <ProjectsCard
+          projectURL="https://ecioferraz.github.io/trybe-trybetunes-project/"
+          src={ trybeTunes }
+          title="TrybeTunes"
+          githubURL="https://github.com/ecioferraz/trybe-trybetunes-project"
         />
       </section>
     </section>
