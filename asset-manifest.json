@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.746313c2.css",
+    "main.css": "/static/css/main.d9fdcc76.css",
     "main.js": "/static/js/main.c3e2e649.js",
     "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
     "static/media/star-wars.png": "/static/media/star-wars.1d2302f90a978de7dcc5.png",
@@ -10,12 +10,12 @@
     "static/media/perfil.jpg": "/static/media/perfil.c5371abf2a88facc4108.jpg",
     "static/media/pixel-art.png": "/static/media/pixel-art.57ac5850b3ab8cfc876d.png",
     "index.html": "/index.html",
-    "main.746313c2.css.map": "/static/css/main.746313c2.css.map",
+    "main.d9fdcc76.css.map": "/static/css/main.d9fdcc76.css.map",
     "main.c3e2e649.js.map": "/static/js/main.c3e2e649.js.map",
     "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.746313c2.css",
+    "static/css/main.d9fdcc76.css",
     "static/js/main.c3e2e649.js"
   ]
 }
