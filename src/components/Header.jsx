@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import './styles/Header.css'
+import '../styles/Header.css'
 
 export default function Header () {
   return (

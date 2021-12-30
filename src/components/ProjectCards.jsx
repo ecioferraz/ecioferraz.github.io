@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/ProjectCards.css';
+import '../styles/ProjectCards.css';
 
 export default function ProjectsCard ({ projectURL, src, title, githubURL }) {
   return (

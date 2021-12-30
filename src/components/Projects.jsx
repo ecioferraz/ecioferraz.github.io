@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectsCard from "./ProjectCards";
-import './styles/Projects.css';
+import '../styles/Projects.css';
 
 import pixelArt from '../images/pixel-art.png';
 import starWars from '../images/star-wars.png';

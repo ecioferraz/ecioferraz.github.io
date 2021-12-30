@@ -1,6 +1,6 @@
 import React from 'react';
 import hero from '../images/perfil.jpg';
-import './styles/Home.css';
+import '../styles/Home.css';
 
 export default function Home () {
   return (
