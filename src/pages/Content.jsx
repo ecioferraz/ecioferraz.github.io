@@ -4,7 +4,7 @@ import Home from '../components/Home';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
-export default function Content () {
+export default function Content() {
   return (
     <>
       <Home />

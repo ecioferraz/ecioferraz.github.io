@@ -15,8 +15,14 @@ export default function Skills () {
                 <li><i className="fab fa-html5" /></li>
                 <li><i className="fab fa-css3-alt" /></li>
                 <li><i className="fab fa-react" /></li>
+                <li><i className="fab fa-node" /></li>
+                <li><span className="iconify" data-icon="simple-icons:typescript" data-width="12"></span></li>
+                <li><span class="iconify" data-icon="simple-icons:express" data-width="16"></span></li>
                 <li><i className="fas fa-flask" /></li>
+                <li><span class="iconify" data-icon="file-icons:eslint" data-width="16"></span></li>
                 <li><i className="fas fa-database" /></li>
+                <li><span class="iconify" data-icon="file-icons:sequelize" data-width="16"></span></li>
+                <li><span class="iconify" data-icon="bxl:mongodb" data-width="16"></span></li>
                 <li><i className="fab fa-docker" /></li>
               </ul>
               <ul className="skill">
@@ -25,8 +31,14 @@ export default function Skills () {
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>React</li>
+                <li>Node Js</li>
+                <li>Typescript</li>
+                <li>Express</li>
                 <li>Unit Tests</li>
+                <li>ESLint</li>
                 <li>MySQL</li>
+                <li>Sequelize</li>
+                <li>MongoDB</li>
                 <li>Docker</li>
               </ul>
             </div>
