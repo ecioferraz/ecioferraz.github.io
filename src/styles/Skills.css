@@ -7,7 +7,7 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  padding: 0 25%;
+  padding: 0 15%;
   text-align: center;
   /* width: 100%; */
 }
@@ -28,6 +28,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .hard-skills, .soft-skills {
@@ -44,11 +45,6 @@
   margin-top: 0;
 }
 
-.inner-skills {
-  display: flex;
-  width: 100%;
-}
-
 li {
   list-style: none;
   margin: .5em .5em 0 .5em;
@@ -59,7 +55,7 @@ li {
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 819px) {
   .skills {
     padding: 0;
     width: 100vw;
@@ -70,9 +66,9 @@ li {
   }
 
   .hard-skills, .soft-skills {
-    width: 30%;
+    width: 40%;
     font-size: .8em;
-    padding: 10px;
+    padding: 10px 20px 10px 10px;
   }
 
   .soft-skills {
@@ -89,5 +85,9 @@ li {
 
   li {
     font-size: .8em;
+  }
+
+  i, span, .icon {
+    display: none !important;
   }
 }

@@ -1,7 +1,8 @@
-import React from "react";
-import './styles/ProjectCards.css';
+import PropTypes from 'prop-types';
+import React from 'react';
+import '../styles/ProjectCards.css';
 
-export default function ProjectsCard ({ projectURL, src, title, githubURL }) {
+export default function ProjectsCard({ projectURL, src, title, githubURL }) {
   return (
     <div className="project-card">
       <a
@@ -22,9 +23,16 @@ export default function ProjectsCard ({ projectURL, src, title, githubURL }) {
           target="_blank"
           rel="noreferrer"
         >
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
         </a>
       </div>
     </div>
   );
 }
+
+ProjectsCard.propTypes = {
+  githubURL: PropTypes.string.isRequired,
+  projectURL: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};

@@ -1,8 +1,8 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import './styles/Header.css'
+import '../styles/Header.css';
 
-export default function Header () {
+export default function Header() {
   return (
     <header>
       <nav>
@@ -29,13 +29,6 @@ export default function Header () {
               </button>
             </HashLink>
           </li>
-          {/* <li>
-            <HashLink smooth to="/#contact">
-              <button>
-                <a href="#contact">Contato</a>
-              </button>
-            </HashLink>
-          </li> */}
         </ul>
         <ul className="contacts">
           <li>
