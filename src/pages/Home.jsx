@@ -1,8 +1,6 @@
 import React from 'react';
-import Footer from '../components/Footer';
-import About from '../templates/About';
-import Projects from '../templates/Projects';
-import Skills from '../templates/Skills';
+import { Footer } from '../components';
+import { About, Projects, Skills }from '../templates';
 
 export default function Home() {
   return (
