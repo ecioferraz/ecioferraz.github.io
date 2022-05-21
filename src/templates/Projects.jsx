@@ -1,5 +1,5 @@
-import React from "react";
-import ProjectsCard from "./ProjectCards";
+import React from 'react';
+import ProjectsCard from '../components/ProjectCards';
 import '../styles/Projects.css';
 
 import pixelArt from '../images/pixel-art.png';
@@ -8,7 +8,7 @@ import trivia from '../images/trivia.png';
 import trybeWallet from '../images/trybewallet.png';
 import trybeTunes from '../images/trybetunes.png';
 
-export default function Projects () {
+export default function Projects() {
   return (
     <section className="projects" id="projects">
       <h1>Projetos</h1>
