@@ -6,7 +6,7 @@ export default function Footer() {
     <footer id="contact">
       <div>
         <i className="fas fa-envelope-open-text"></i>
-        <a href="mailto:ecioferraz@hotmail.com">ecioferraz@gmail.com</a>
+        <a href="mailto:ecioferraz@gmail.com">ecioferraz@gmail.com</a>
       </div>
       <p>Criado com React.</p>
     </footer>
