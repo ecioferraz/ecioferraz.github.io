@@ -1,9 +1,10 @@
-import ngcash from '../../../public/assets/images/projects/ngcash.png';
+import articleSearch from '../../../public/assets/images/projects/articleSearch.png';
 import myTunes from '../../../public/assets/images/projects/myTunes.png';
-import trybewallet from '../../../public/assets/images/projects/trybewallet.png';
-import trivia from '../../../public/assets/images/projects/trivia.png';
-import starWars from '../../../public/assets/images/projects/star-wars.png';
+import ngcash from '../../../public/assets/images/projects/ngcash.png';
 import pixelArt from '../../../public/assets/images/projects/pixel-art.png';
+import starWars from '../../../public/assets/images/projects/star-wars.png';
+import trivia from '../../../public/assets/images/projects/trivia.png';
+import trybewallet from '../../../public/assets/images/projects/trybewallet.png';
 
 export default [
   {
@@ -17,6 +18,12 @@ export default [
     mainURL: 'https://ecioferraz.github.io/trybe-trybetunes-project/',
     secondaryURL: 'https://github.com/ecioferraz/trybe-trybetunes-project',
     title: 'TrybeTunes',
+  },
+  {
+    imgSrc: articleSearch,
+    mainURL: 'https://ecioferraz.github.io/mettzer-article-search/',
+    secondaryURL: 'https://github.com/ecioferraz/mettzer-article-search',
+    title: 'Article Search',
   },
   {
     imgSrc: trybewallet,
