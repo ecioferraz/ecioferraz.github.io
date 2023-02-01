@@ -17,7 +17,7 @@ export default [
     imgSrc: myTunes,
     mainURL: 'https://ecioferraz.github.io/trybe-trybetunes-project/',
     secondaryURL: 'https://github.com/ecioferraz/trybe-trybetunes-project',
-    title: 'TrybeTunes',
+    title: 'myTunes',
   },
   {
     imgSrc: articleSearch,
