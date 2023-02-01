@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages",
+    "deploy": "npm run build && git add dist && git commit -m update && git push origin :gh-pages && git subtree push --prefix dist origin gh-pages",
     "preview": "vite preview",
     "test": "vitest",
     "test:coverage": "vitest --coverage"
