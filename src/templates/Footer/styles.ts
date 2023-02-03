@@ -4,6 +4,7 @@ export const Container = styled.footer`
   ${({ theme }) => css`
     align-items: center;
     background-color: ${theme.colors.secondaryColor};
+    box-shadow: ${theme.colors.primaryColor} 0 -3px 10px;
     bottom: 0;
     display: flex;
     justify-content: space-between;

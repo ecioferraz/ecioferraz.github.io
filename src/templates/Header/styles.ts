@@ -5,8 +5,8 @@ export const Container = styled.header`
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
     border-bottom: 1px solid ${theme.colors.primaryColor};
-    box-shadow: ${theme.colors.secondaryColor} 3px 3px 0 0,
-      ${theme.colors.primaryColor} 3px 3px 0 1px;
+    box-shadow: ${theme.colors.secondaryColor} 0 3px 0 0,
+      ${theme.colors.primaryColor} 0 3px 0 1px;
     box-sizing: border-box;
     display: flex;
     height: ${theme.spacings.xlarge};
