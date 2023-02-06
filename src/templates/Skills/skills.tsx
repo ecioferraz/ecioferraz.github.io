@@ -130,6 +130,10 @@ export default [
   },
   {
     icon: <Fluentui.Target />,
-    title: 'Assertividade',
+    title: 'Comunicação assertiva',
   },
+  {
+    icon: <Entypo.MagnifyingGlass />,
+    title: 'Detalhista',
+  }
 ];
