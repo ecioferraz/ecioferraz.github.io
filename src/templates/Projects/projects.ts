@@ -15,8 +15,8 @@ export default [
   },
   {
     imgSrc: myTunes,
-    mainURL: 'https://ecioferraz.github.io/trybe-trybetunes-project/',
-    secondaryURL: 'https://github.com/ecioferraz/trybe-trybetunes-project',
+    mainURL: 'https://ecioferraz.github.io/mytunes/',
+    secondaryURL: 'https://github.com/ecioferraz/mytunes',
     title: 'myTunes',
   },
   {
