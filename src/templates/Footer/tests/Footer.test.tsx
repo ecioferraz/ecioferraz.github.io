@@ -44,6 +44,7 @@ describe('<Footer />', () => {
         -ms-flex-align: center;
         align-items: center;
         background-color: #FFF;
+        box-shadow: #000 0 -3px 10px;
         bottom: 0;
         display: -webkit-box;
         display: -webkit-flex;

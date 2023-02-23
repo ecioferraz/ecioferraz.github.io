@@ -53,6 +53,12 @@ exports[`<ProjectCard /> > should render <ProjectCard /> 1`] = `
   overflow: hidden;
 }
 
+.c0,
+.c0 * {
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
+}
+
 .c0:hover {
   scale: 1.05;
 }

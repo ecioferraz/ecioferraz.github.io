@@ -85,7 +85,7 @@ exports[`<Header /> > should render <Header /> 1`] = `
   align-items: center;
   background-color: rgba(0,0,0,0.8);
   border-bottom: 1px solid #000;
-  box-shadow: #FFF 3px 3px 0 0, #000 3px 3px 0 1px;
+  box-shadow: #FFF 0 3px 0 0, #000 0 3px 0 1px;
   box-sizing: border-box;
   display: -webkit-box;
   display: -webkit-flex;
@@ -101,6 +101,11 @@ exports[`<Header /> > should render <Header /> 1`] = `
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+}
+
+.c0 * {
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
 }
 
 .c0 svg {

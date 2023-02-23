@@ -16,6 +16,10 @@ export const Container = styled.header`
     position: sticky;
     top: 0;
 
+    * {
+      transition: 0.8s all ease-in-out;
+    }
+
     svg {
       color: ${theme.colors.secondaryColor}
     }

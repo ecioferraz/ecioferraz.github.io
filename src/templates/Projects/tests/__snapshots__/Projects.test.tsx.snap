@@ -57,6 +57,12 @@ exports[`<Projects /> > should render <Projects /> 1`] = `
   overflow: hidden;
 }
 
+.c3,
+.c3 * {
+  -webkit-transition: 0.8s all ease-in-out;
+  transition: 0.8s all ease-in-out;
+}
+
 .c3:hover {
   scale: 1.05;
 }
@@ -157,7 +163,7 @@ exports[`<Projects /> > should render <Projects /> 1`] = `
           <img
             alt="Imagem do projeto NG.CASH"
             class="c5"
-            src="../assets/images/projects/ngcash.png"
+            src="/@fs/home/ecio/Documentos/trybe/Portfólio/ecioferraz.github.io/public/assets/images/projects/ngcash.png"
           />
         </a>
         <section
@@ -193,17 +199,17 @@ exports[`<Projects /> > should render <Projects /> 1`] = `
       </section>
       <section
         class="c3"
-        title="TrybeTunes"
+        title="myTunes"
       >
         <a
           class="c4"
-          href="https://ecioferraz.github.io/trybe-trybetunes-project/"
+          href="https://ecioferraz.github.io/mytunes/"
           target="_blank"
         >
           <img
-            alt="Imagem do projeto TrybeTunes"
+            alt="Imagem do projeto myTunes"
             class="c5"
-            src="../assets/images/projects/myTunes.png"
+            src="/@fs/home/ecio/Documentos/trybe/Portfólio/ecioferraz.github.io/public/assets/images/projects/myTunes.png"
           />
         </a>
         <section
@@ -212,11 +218,57 @@ exports[`<Projects /> > should render <Projects /> 1`] = `
           <h4
             class="c7"
           >
-            TrybeTunes
+            myTunes
           </h4>
           <a
             class="c4"
-            href="https://github.com/ecioferraz/trybe-trybetunes-project"
+            href="https://github.com/ecioferraz/mytunes"
+            target="_blank"
+          >
+            <svg
+              class="c8"
+              fill="currentColor"
+              focusable="false"
+              role="img"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>
+                GitHub
+              </title>
+              <path
+                d="M5.719 14.75a.997.997 0 0 1-.664-.252L-.005 10l5.341-4.748a1 1 0 0 1 1.328 1.495L3.005 10l3.378 3.002a1 1 0 0 1-.664 1.748zm8.945-.002L20.005 10l-5.06-4.498a.999.999 0 1 0-1.328 1.495L16.995 10l-3.659 3.252a1 1 0 0 0 1.328 1.496zm-4.678 1.417 2-12a1 1 0 1 0-1.972-.329l-2 12a1 1 0 1 0 1.972.329z"
+              />
+            </svg>
+          </a>
+        </section>
+      </section>
+      <section
+        class="c3"
+        title="Article Search"
+      >
+        <a
+          class="c4"
+          href="https://ecioferraz.github.io/mettzer-article-search/"
+          target="_blank"
+        >
+          <img
+            alt="Imagem do projeto Article Search"
+            class="c5"
+            src="/@fs/home/ecio/Documentos/trybe/Portfólio/ecioferraz.github.io/public/assets/images/projects/articleSearch.png"
+          />
+        </a>
+        <section
+          class="c6"
+        >
+          <h4
+            class="c7"
+          >
+            Article Search
+          </h4>
+          <a
+            class="c4"
+            href="https://github.com/ecioferraz/mettzer-article-search"
             target="_blank"
           >
             <svg
@@ -249,7 +301,7 @@ exports[`<Projects /> > should render <Projects /> 1`] = `
           <img
             alt="Imagem do projeto TrybeWallet"
             class="c5"
-            src="../assets/images/projects/trybewallet.png"
+            src="/@fs/home/ecio/Documentos/trybe/Portfólio/ecioferraz.github.io/public/assets/images/projects/trybewallet.png"
           />
         </a>
         <section
@@ -295,7 +347,7 @@ exports[`<Projects /> > should render <Projects /> 1`] = `
           <img
             alt="Imagem do projeto Trivia"
             class="c5"
-            src="../assets/images/projects/trivia.png"
+            src="/@fs/home/ecio/Documentos/trybe/Portfólio/ecioferraz.github.io/public/assets/images/projects/trivia.png"
           />
         </a>
         <section
@@ -341,7 +393,7 @@ exports[`<Projects /> > should render <Projects /> 1`] = `
           <img
             alt="Imagem do projeto Star Wars: Planet Search"
             class="c5"
-            src="../assets/images/projects/star-wars.png"
+            src="/@fs/home/ecio/Documentos/trybe/Portfólio/ecioferraz.github.io/public/assets/images/projects/star-wars.png"
           />
         </a>
         <section
@@ -387,7 +439,7 @@ exports[`<Projects /> > should render <Projects /> 1`] = `
           <img
             alt="Imagem do projeto Pixel Art"
             class="c5"
-            src="../assets/images/projects/pixel-art.png"
+            src="/@fs/home/ecio/Documentos/trybe/Portfólio/ecioferraz.github.io/public/assets/images/projects/pixel-art.png"
           />
         </a>
         <section

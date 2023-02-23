@@ -13,6 +13,7 @@ export const Container = styled.main`
 
 
     img {
+      aspect-ratio: 9/12;
       border-radius: ${theme.spacings.large};
       box-sizing: border-box;
       max-width: 20rem;

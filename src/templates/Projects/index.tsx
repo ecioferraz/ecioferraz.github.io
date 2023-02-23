@@ -11,6 +11,7 @@ export default function Projects() {
         {projects.map(({ imgSrc, mainURL, secondaryURL, title }) => (
           <ProjectCard
             imgSrc={imgSrc}
+            key={title}
             mainURL={mainURL}
             secondaryURL={secondaryURL}
             title={title}

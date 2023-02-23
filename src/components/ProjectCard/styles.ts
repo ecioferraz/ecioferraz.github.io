@@ -12,6 +12,10 @@ export const Container = styled.section`
     max-width: 27rem;
     overflow: hidden;
 
+    &, * {
+      transition: 0.8s all ease-in-out;
+    }
+
     :hover {
       scale: 1.05;
     }

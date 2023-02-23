@@ -20,6 +20,7 @@ exports[`<About /> > should render <About /> 1`] = `
 }
 
 .c0 img {
+  aspect-ratio: 9/12;
   border-radius: 3.2rem;
   box-sizing: border-box;
   max-width: 20rem;
@@ -83,14 +84,14 @@ exports[`<About /> > should render <About /> 1`] = `
   >
     <img
       alt="Picture of Écio"
-      class="c1"
-      src="../assets/images/hero/hero.jpg"
+      class="c1 slideInDown"
+      src="/@fs/home/ecio/Documentos/trybe/Portfólio/ecioferraz.github.io/public/assets/images/hero/hero.jpg"
     />
     <section
       class="c2"
     >
       <h1
-        class="c3"
+        class="c3 slideInRight"
       >
         Olá! 
         <svg
@@ -110,7 +111,7 @@ exports[`<About /> > should render <About /> 1`] = `
         </svg>
       </h1>
       <p
-        class="c5"
+        class="c5 slideInRight"
       >
         Me chamo Écio, sou de Recife, Pernambuco. Sempre fui curioso e gostei de procurar soluções para os problemas que me apareciam com tecnologia, então decidi me tornar desenvolvedor web através da Trybe. Esse é meu portfólio, e aqui você pode conferir os projetos e habilidades que tenho desenvolvido.
       </p>

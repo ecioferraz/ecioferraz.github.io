@@ -5,6 +5,10 @@ export const Container = styled.main`
     background: ${theme.colors.secondaryColor};
     color: ${theme.colors.primaryColor};
 
+    * {
+      transition: 0.8s all ease-in-out;
+    }
+
     @media ${theme.media.height.lteMedium} {
       h1 {
         font-size: ${theme.font.sizes.large};
