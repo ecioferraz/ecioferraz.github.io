@@ -14,9 +14,16 @@ export default function About() {
           Olá! <HandPeace size={theme.font.sizes.xlarge} />
         </TextCard>
         <TextCard as="p" className="slideInRight" size="small">
-          Me chamo Écio, sou de Recife, Pernambuco. Sempre fui curioso e gostei
-          de procurar soluções para os problemas que me apareciam com
-          tecnologia, então decidi me tornar desenvolvedor web através da Trybe.
+          Me chamo Écio, sou de Recife, Pernambuco.
+          <br />
+          <br />
+          Migrei para a tecnologia no início de 2021, pesquisando e estudando
+          por conta própria através de cursos e tutoriais online. Após um
+          competitivo processo seletivo, iniciei meus estudos na Trybe, escola
+          de desenvolvimento web, onde pude me desenvolver com muito mais
+          afinco.
+          <br />
+          <br />
           Esse é meu portfólio, e aqui você pode conferir os projetos e
           habilidades que tenho desenvolvido.
         </TextCard>
