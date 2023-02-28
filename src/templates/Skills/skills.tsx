@@ -135,5 +135,13 @@ export default [
   {
     icon: <Entypo.MagnifyingGlass />,
     title: 'Detalhista',
+  },
+  {
+    icon: <Entypo.Book />,
+    title: 'Vontade de aprender',
+  },
+  {
+    icon: <FaSolid.PuzzlePiece />,
+    title: 'Pensamento crítico',
   }
 ];
