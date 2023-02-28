@@ -89,8 +89,16 @@ export default [
     title: 'Styled Components',
   },
   {
+    icon: <SimpleIcons.Sass />,
+    title: 'Sass',
+  },
+  {
     icon: <SimpleIcons.Storybook />,
     title: 'Storybook',
+  },
+  {
+    icon: <SimpleIcons.Angular />,
+    title: 'Angular',
   },
   {
     icon: <SimpleIcons.Python />,
