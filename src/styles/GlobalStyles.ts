@@ -27,17 +27,9 @@ export const GlobalStyles = createGlobalStyle`
       flex-direction: column;
       justify-content: center;
       padding: 0 30rem;
-      height: 100vh;
+      min-height: 100vh;
 
-      @media ${theme.media.width.lteMedium} {
-        height: 100%;
-      }
-
-      @media ${theme.media.height.lteSmall} {
-        height: 100vh;
-      }
-
-      @media ${theme.media.width.lteHuge} {
+      @media ${theme.media.width.lteXHuge} {
         padding: ${theme.spacings.large} ${theme.spacings.xxlarge};
       }
     }

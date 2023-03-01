@@ -2,10 +2,6 @@ import styled, { css } from 'styled-components';
 
 export const Container = styled.main`
   ${({ theme }) => css`
-    @media ${theme.media.height.lteSmall} {
-      height: 100%;
-    }
-
     @media ${theme.media.height.lteMedium} {
       h1 {
         font-size: ${theme.font.sizes.large};

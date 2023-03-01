@@ -32,6 +32,7 @@ export const theme = {
       lteHuge: '(max-width: 1280px)',
       lteLarge: '(max-width: 846px)',
       lteMedium: '(max-width: 768px)',
+      lteXHuge: '(max-width: 1368px)',
     },
   },
   spacings: {
