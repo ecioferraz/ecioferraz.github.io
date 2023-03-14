@@ -10,7 +10,7 @@ export default function SkillCard({
   title: string;
 }) {
   return (
-    <Styled.Container>
+    <Styled.Container aria-label={title}>
       {icon}
       <TextCard as="p" size="small">
         {title}
