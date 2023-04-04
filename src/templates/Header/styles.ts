@@ -29,13 +29,15 @@ export const Container = styled.header`
 
 export const NavContainer = styled.nav`
   ${({ theme }) => css`
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
+    ul {
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
 
-    > * {
-      margin: 0 ${theme.spacings.xsmall};
-      white-space: nowrap;
+      > * {
+        margin: 0 ${theme.spacings.xsmall};
+        white-space: nowrap;
+      }
     }
   `}
 `;

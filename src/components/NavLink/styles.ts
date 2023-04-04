@@ -1,6 +1,10 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.a`
+export const Container = styled.li`
+  list-style: none;
+`;
+
+export const LinkContainer = styled.a`
   ${({ theme }) => css`
     background: none;
     cursor: pointer;

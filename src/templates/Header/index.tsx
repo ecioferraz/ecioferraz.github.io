@@ -7,9 +7,11 @@ export default function Header() {
   return (
     <Styled.Container>
       <Styled.NavContainer>
-        <NavLink src="#about">Quem sou eu</NavLink>
-        <NavLink src="#skills">Habilidades</NavLink>
-        <NavLink src="#projects">Projetos</NavLink>
+        <ul>
+          <NavLink src="#about">Quem sou eu</NavLink>
+          <NavLink src="#skills">Habilidades</NavLink>
+          <NavLink src="#projects">Projetos</NavLink>
+        </ul>
       </Styled.NavContainer>
       <Styled.ContactContainer>
         <CustomLink src="https://github.com/ecioferraz">
