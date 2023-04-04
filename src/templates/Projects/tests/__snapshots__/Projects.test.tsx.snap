@@ -126,12 +126,6 @@ exports[`<Projects /> > should render <Projects /> 1`] = `
   }
 }
 
-@media (max-height:540px) {
-  .c0 {
-    height: 100%;
-  }
-}
-
 @media (max-height:768px) {
   .c0 h1 {
     font-size: 3.2rem;

@@ -87,6 +87,7 @@ describe('<SkillCard />', () => {
 
       <div>
         <section
+          aria-label="titleTest"
           class="c0"
         >
           iconTest
