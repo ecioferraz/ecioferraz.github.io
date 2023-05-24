@@ -2,11 +2,18 @@ import articleSearch from '../../../public/assets/images/projects/articleSearch.
 import myTunes from '../../../public/assets/images/projects/myTunes.png';
 import ngcash from '../../../public/assets/images/projects/ngcash.png';
 import pixelArt from '../../../public/assets/images/projects/pixel-art.png';
+import spacetime from '../../../public/assets/images/projects/spacetime.png';
 import starWars from '../../../public/assets/images/projects/star-wars.png';
 import trivia from '../../../public/assets/images/projects/trivia.png';
 import trybewallet from '../../../public/assets/images/projects/trybewallet.png';
 
 export default [
+  {
+    imgSrc: spacetime,
+    mainURL: 'https://github.com/ecioferraz/rocketseat-nlw-ignite',
+    secondaryURL: 'https://github.com/ecioferraz/rocketseat-nlw-ignite',
+    title: 'Spacetime'
+  },
   {
     imgSrc: ngcash,
     mainURL: 'https://github.com/ecioferraz/ngcash-frontend',
