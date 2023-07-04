@@ -3,16 +3,17 @@ import styled, { css } from 'styled-components';
 export const Container = styled.section`
   ${({ theme }) => css`
     align-items: center;
+    align-self: baseline;
     display: flex;
     flex-direction: column;
     flex-shrink: 2;
     justify-content: center;
-    margin: ${theme.spacings.small};
+    margin-inline: ${theme.spacings.small};
+    padding-inline: ${theme.spacings.large};
     width: 5rem;
 
     :hover {
       background: ${theme.colors.secondaryColor};
-      padding: ${theme.spacings.xsmall};
       scale: 1.1;
 
       @media ${theme.media.width.lteMedium} {
@@ -23,7 +24,7 @@ export const Container = styled.section`
     }
 
     p {
-      display: none;
+      visibility: hidden;
       font-weight: 600;
       text-align: center;
     }
@@ -32,6 +33,7 @@ export const Container = styled.section`
       align-items: center;
       display: flex;
       justify-content: center;
+      visibility: visible;
     }
 
     svg {
